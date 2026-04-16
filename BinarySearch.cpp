@@ -1,4 +1,9 @@
+#include <iostream>
+using namespace std;
 
+int element[10];
+int nPanjang;
+int x;
 
 void input()
 {
@@ -110,10 +115,3 @@ void binarySearch()
     } while (ulang == 'y' || ulang == 'Y');
 }
 
-int main()
-{
-    input();
-    BubbleSortArray();
-    display();
-    binarySearch();
-}
